@@ -1,0 +1,74 @@
+<div class="pageContainer" ng-class="{
+	companyPage:(pageClass == 'company'),
+	culturePage:(pageClass == 'culture'),
+	reaserchPage:(pageClass == 'reaserch'),
+	careerPage:(pageClass == 'career'),
+	loginPage:(pageClass == 'login')
+}">
+	<div class="leftWhiteBar"></div>
+	<div class="header-top"></div>
+	<div class="header">
+		<div class="pageLeft">
+			<a href="#/" class="logo">
+				<img src="img/logo_nike.png" alt="logo">
+			</a>
+			<div class="main-nav">
+				<a href="#/company" ng-class="{companyText:(pageClass=='company')}">我们公司</a>
+				<a href="#/culture" ng-class="{cultureText:(pageClass=='culture')}">文化和理念</a>
+				<a href="#/reaserch" ng-class="{reaserchText:(pageClass=='reaserch')}">研究与报告</a>
+				<a href="#/career" ng-class="{careerText:(pageClass=='career')}">职业发展</a>
+				<a href="#/login" ng-class="{loginText:(pageClass=='login')}">登录系统</a>
+			</div>
+		</div>
+	</div>
+	<div class="header-bar">
+		<span ng-bind="pageTitle" ng-class="{
+			companyText:(pageClass == 'company'),
+			cultureText:(pageClass == 'culture'),
+			reaserchText:(pageClass == 'reaserch'),
+			careerText:(pageClass == 'career'),
+			loginText:(pageClass == 'login')
+		}"></span>
+	</div>
+	<div class="body">
+		<div class="pageLeft">
+			<img src="img/banner.png" alt="banner" class="banner">
+			<p>
+				上海知临信息技术有限公司（Shanghai Zealink Information & Technology Co.,Ltd.），是一家年轻的高科技企业，致力于向中国的中小型企业提供完整的企业E化解决方案。依托互联网快速便捷的资源，结合最先进的管理理念将互联网与价值网应用整合一体，帮助中小企业打造核心竞争优势，使互联网工具成为市场竞争中的强有利武器。
+			</p>
+			<p>
+				　　知临的哲学是给中小企业提供最适合的网络解决方案。全方位的功能整合、专业精美的界面表达、独到精妙的创新设计，将知临的深厚专业底蕴和独树一帜风格的品牌形象进行了全新演绎。秉承诚信、创新的经营理念，我们一路走来，并将继续前进。
+			</p>
+			<p>
+				　　众所周知，商家取得成功的关键是适应顾客的需求，所以知临始终以市场的需求为产品研发的导向。其产品的研究开发借鉴了国际同类主流软件所反映的先进技术和管理理念，融合知临长期以来对互联网业务的深刻理解。所有的科研人员和管理人员都兢兢业业的工作，公司的发展目标和个人的成长目标相一致。 一个能够自我学习、自我完善的企业组织，将更具生命力和凝聚力。
+			</p>
+		</div>
+		<div class="pageRight">
+			<ul>
+				<li><a href="#/">大学和MBA</a></li>
+				<li><a href="#/">社会招聘</a></li>
+				<li><a href="#/">技术招聘</a></li>
+				<li><a href="#/">工作库</a></li>
+			</ul>
+			
+		</div>
+	</div>
+	<div class="footer-bar"></div>
+	<div class="footer">
+		<div class="pageLeft">
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="pageLeft">
+			<a href="">Contact</a>
+			<span>|</span>
+			<a href="">Site Map</a>
+			<span>|</span>
+			<a href="">Terms of Use</a>
+			<span>|</span>
+			<a href="">Privacy Policy</a>
+			<span>|</span>
+			<a href="">&copy; 2015 Zealink.com</a>
+		</div>
+	</div>
+</div>

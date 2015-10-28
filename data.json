@@ -1,0 +1,68 @@
+[
+{
+"TABLE_NAME": "ZSINA0002",
+"TABLE_TYPE": "TABLE",
+"COMMENTS": "新浪股吧原始帖子1",
+"dataArray": [
+	{
+	"TABLE_NAME": "ZSINA0002",
+	"TABLE_TYPE": "TABLE",
+	"COMMENTS": "新浪股吧原始帖子1"
+	},
+	{
+	"TABLE_NAME": "ZSINA0001",
+	"TABLE_TYPE": "TABLE",
+	"COMMENTS": "新浪股吧原始帖子2"
+	},
+	{
+	"TABLE_NAME": "ZLC_BKMAP",
+	"TABLE_TYPE": "TABLE",
+	"COMMENTS": "新浪股吧原始帖子3"
+	}
+]
+},
+{
+"TABLE_NAME": "ZSINA0001",
+"TABLE_TYPE": "TABLE",
+"COMMENTS": "新浪股吧原始帖子2",
+"dataArray": [
+	{
+	"TABLE_NAME": "ZSINA0002",
+	"TABLE_TYPE": "TABLE",
+	"COMMENTS": "新浪股吧原始帖子1"
+	},
+	{
+	"TABLE_NAME": "ZSINA0001",
+	"TABLE_TYPE": "TABLE",
+	"COMMENTS": "新浪股吧原始帖子2"
+	},
+	{
+	"TABLE_NAME": "ZLC_BKMAP",
+	"TABLE_TYPE": "TABLE",
+	"COMMENTS": "新浪股吧原始帖子3"
+	}
+]
+},
+{
+"TABLE_NAME": "ZLC_BKMAP",
+"TABLE_TYPE": "TABLE",
+"COMMENTS": "新浪股吧原始帖子3",
+"dataArray": [
+	{
+	"TABLE_NAME": "ZSINA0002",
+	"TABLE_TYPE": "TABLE",
+	"COMMENTS": "新浪股吧原始帖子1"
+	},
+	{
+	"TABLE_NAME": "ZSINA0001",
+	"TABLE_TYPE": "TABLE",
+	"COMMENTS": "新浪股吧原始帖子2"
+	},
+	{
+	"TABLE_NAME": "ZLC_BKMAP",
+	"TABLE_TYPE": "TABLE",
+	"COMMENTS": "新浪股吧原始帖子3"
+	}
+]
+}
+]

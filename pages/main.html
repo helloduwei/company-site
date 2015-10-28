@@ -1,0 +1,57 @@
+<div class="pageContainer" ng-class="{
+	companyPage:(pageClass == 'company'),
+	culturePage:(pageClass == 'culture'),
+	reaserchPage:(pageClass == 'reaserch'),
+	careerPage:(pageClass == 'career'),
+	loginPage:(pageClass == 'login')
+}">
+	<div class="leftWhiteBar"></div>
+	<div class="header-top"></div>
+	<div class="header">
+		<div class="pageLeft">
+			<a href="#/" class="logo">
+				<img src="img/logo_nike.png" alt="logo">
+			</a>
+			<div class="main-nav">
+				<a href="#/company">我们公司</a>
+				<a href="#/culture">文化和理念</a>
+				<a href="#/reaserch">研究与报告</a>
+				<a href="#/career">职业发展</a>
+				<a href="#/login">登录系统</a>
+			</div>
+		</div>
+	</div>
+	<div class="header-bar"></div>
+	<div class="body">
+		<div class="mainLeft">
+
+			<carousel interval="myInterval" style="height: auto;">
+				<slide ng-repeat="slide in slides" active="slide.active" style="height: auto;">
+					<a href="" >
+						<img ng-src="{{slide.image}}" style="margin:auto;width:100%;">
+					</a>					
+				</slide>
+			</carousel>
+
+		</div>
+	<div style="padding-left:44px;font-size:24px;color:#e5d43e;">知临信息 Zealink.com</div>
+	</div>
+	<div class="footer-bar"></div>
+	<div class="footer">
+		<div class="pageLeft">
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<div class="pageLeft">
+			<a href="">Contact</a>
+			<span>|</span>
+			<a href="">Site Map</a>
+			<span>|</span>
+			<a href="">Terms of Use</a>
+			<span>|</span>
+			<a href="">Privacy Policy</a>
+			<span>|</span>
+			<a href="">&copy; 2015 Zealink.com</a>
+		</div>
+	</div>
+</div>
